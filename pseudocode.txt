@@ -1,0 +1,30 @@
+Algoritma Pemesanan_Minuman_Jus
+
+Desklarasi :
+            mm, p, bp : integer
+            hrg : double
+            byr : float
+Deskripsi :
+Begin
+Pilihan1
+            WRITE ( MENU VARIAN JUS )
+            WRITE ( Masukkan Pilihan Anda )
+            Input ( mm )
+            Read (mm )
+                If ( mm <= 0 ) OR ( mm > 3 ) then
+                    Write ( Menu tidak ada )
+                    go to ( Pilihan )
+                end if
+Pilihan2
+             Write ( PORSI )
+             Write ( Masukkan Pilihan Anda )
+             Input ( p )
+             Read ( p )
+                If ( p <= 0 ) OR ( p > 3 then)
+                    Write ( Porsi tidak ada )
+                    go to ( Pilihan2)
+                end if
+            Write ( Banyak Pesanan Anda )
+            input ( bp )
+            read ( bp )
+            
